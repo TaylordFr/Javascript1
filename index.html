@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="cim"></p>
+    
+    <div class="elso">
+        <img src="img/kek.png" alt="" class="kekkor">
+        <img src="img/kek.png" alt="" class="kekkor2">
+    </div>
+    <div class="masodik">
+        <img src="img/piros.png" alt="" class="piroskor">
+        <img src="img/piros.png" alt="" class="piroskor2">
+    </div>
+        
+    <img src="img/pluszjel.png" alt="" class="plusz">
+    
+    <div class="jel">
+        <img src="img/vonal.png" alt="" class="vonal">
+    </div>
+
+        <img src="img/egyenlo.png" alt="" class="egyenlo">
+
+    <div class="eredmenys">
+        <img src="img/szurke.png" alt="" class="">
+        <img src="img/szurke.png" alt="" class="">
+        <img src="img/szurke.png" alt="" class="">
+    </div>
+    
+    <button onclick="reset()"> Alap </button>
+    <button onclick="myFunction2()">Megoldás</button>
+        
+    <p> Eredmény: <p id="eredmeny"></p>
+        
+        <script>
+            
+            var a = 98; var b = 99; var c = a + b; var d = 0
+            
+            function reset() {
+                document.getElementById('eredmeny').innerHTML = " "
+            }
+            function myFunction2() {
+                document.getElementById('eredmeny').innerHTML = c;
+            }
+          
+        </script>
+        
+        
+    
+</body>
+</html>
